@@ -1,0 +1,135 @@
+﻿
+
+body {
+    margin: 0;
+    background-position: top left;
+    background-repeat: repeat;
+    padding: 0 0 0 0;
+    font-family: sans-serif;
+    background-size: cover;
+    background-image: url('banking system.jpg');
+}
+
+header {
+    overflow: hidden;
+    height: auto;
+}
+
+
+.photos {
+    list-style-type: none;
+    padding: 0;
+}
+
+    .photos li {
+        display: inline;
+        padding-left: 11px;
+    }
+
+
+
+.footer {
+    margin-top: 20px;
+}
+
+    .footer p {
+        color: white;
+        text-align: center;
+        font-size: 10px;
+        font-style: italic;
+        text-transform: uppercase;
+    }
+
+header .navbar-brand {
+    padding-left: 0rem;
+}
+
+
+.nav-area {
+    background: rgba(61, 59, 59, 0.98);
+    height: 60px;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+    .nav-area:hover {
+        color: darkslategrey;
+    }
+
+.logo {
+    margin: 0 50px;
+    height: 60px;
+    float: left;
+    color: #fff;
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.menu-area {
+    float: right;
+    list-style: none;
+    margin: 20px;
+    text-align: center;
+}
+
+header .menu-area:last-child {
+    padding-right: 10.5em;
+}
+
+.menu-area li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+    .menu-area li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 5px 10px;
+        letter-spacing: 2px;
+        padding: 0.9em;
+    }
+
+        .menu-area li a:hover {
+            color: bisque;
+        }
+
+.banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+    .banner-text h2 {
+        color: rgba(76 255 0);
+        font-size: 55px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .banner-text p {
+        color: rgb(76 255 0);
+        font-size: 18px;
+        margin: 0;
+        font-weight: bold;
+        text-align: center;
+    }
+
+.btn {
+    display: inline-block;
+    margin-top: 5%;
+    background: round;
+    border: 0;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 75px;
+    margin-right: -110%;
+}
+
